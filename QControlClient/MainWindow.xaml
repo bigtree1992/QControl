@@ -1,0 +1,18 @@
+﻿<Window x:Class="QCommon.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:QCommon"
+        mc:Ignorable="d"
+        Title="奇境森林远程命令控制" Height="100" Width="200">
+    <Grid>
+        <TextBox x:Name="Info" HorizontalAlignment="Left" Height="70" 
+                 TextWrapping="Wrap" 
+                 Text="深圳奇境森林科技有限公司专用远程协助系统，如果不能正常使用请关闭杀毒软件。" 
+                 VerticalAlignment="Top" Width="192"/>
+
+    </Grid>
+
+
+</Window>
